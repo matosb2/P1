@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Project 1</title>
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,600' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row col-md-6 chelsea">
+            <img class="title-logo" src="images/chelseafc.png" alt="chelsea logo">
+        </div>
+        <div class="row col-md-6 namex">
+            <h1 class="title-super text-thin">Brian Matos</h1>
+            <h3 class="h1h3-spacing">Front-End Journey</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr class="shadow">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="images/newyork.jpg" alt="NY Skyline">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img class="img-responsive resume" src="images/resume.jpg" data-toggle="modal" data-target="#project1" alt="Resumes">
+                <h4 class="text-large">RESUME</h4>
+                <p class="p-large">Professional Background</p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="images/adventure.jpg" data-toggle="modal" data-target="#project2" alt="Travel">
+                <h4 class="text-large">TRAVEL</h4>
+                <p class="p-large">Places Visited</p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="images/snowboard.jpg" data-toggle="modal" data-target="#project3" alt="Snowboard">
+                <h4 class="text-large">HOBBIES</h4>
+                <p class="p-large">Interests</p>
+            </div>
+        </div>
+    </div>
+    <!-- Modal1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Most Updated Resume</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/resume.jpg" alt="Resumes"> Resume section should portray my Professionala Background.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Traveling The World</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/adventure.jpg" alt="Passions"> I've been to several countries this past year and have put some time into exploring what the world has to offer elsewhere. The culture, nature, and memories that this year will bring me will be remembered forever.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Hobbies</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/snowboard.jpg" alt="Hobbies"> Trying new things and picking up new hobbies is what it's all about! It's important to keep busy and stay active. Becoming active while entertaining new hobbies just means that you have the opportunity to stay physically in shape or mentally in shape.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
